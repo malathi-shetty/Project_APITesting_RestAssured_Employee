@@ -10,24 +10,13 @@
         <methods>
           <include name="checkStatusLine"/>
           <include name="checkContentType"/>
-          <include name="updateEmployee"/>
           <include name="setup"/>
+          <include name="updateEmployee"/>
           <include name="checkStatusCode"/>
           <include name="tearDown"/>
           <include name="checkResponseBody"/>
         </methods>
       </class> <!-- com.employeeapi.testCases.TC004_Put_Employee_Record -->
-      <class name="com.employeeapi.testCases.TC002_Get_Single_Employee_Record">
-        <methods>
-          <include name="checkContentType"/>
-          <include name="getEmployeeData"/>
-          <include name="checkStatusLine"/>
-          <include name="checkStatusCode"/>
-          <include name="setup"/>
-          <include name="checkResponseBody"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.employeeapi.testCases.TC002_Get_Single_Employee_Record -->
       <class name="com.employeeapi.testCases.TC003_Post_Employee_Record">
         <methods>
           <include name="checkStatusCode"/>
@@ -51,6 +40,16 @@
           <include name="checkContentType"/>
         </methods>
       </class> <!-- com.employeeapi.testCases.TC005_Delete_Employee_Record -->
+      <class name="com.employeeapi.testCases.TC002_Get_Single_Employee_Record">
+        <methods>
+          <include name="checkContentType"/>
+          <include name="getEmployeeData"/>
+          <include name="checkStatusLine"/>
+          <include name="checkStatusCode"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.employeeapi.testCases.TC002_Get_Single_Employee_Record -->
     </classes>
   </test> <!-- EmployeesRestAPITest(failed) -->
 </suite> <!-- Failed suite [EmployeesRestAPISuite] -->
